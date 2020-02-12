@@ -1,0 +1,22 @@
+﻿Книга по Rust на русском
+https://doc.rust-lang.ru/book/ch00-00-introduction.html
+https://rustycrate.ru
+
+Документация на английском
+https://doc.rust-lang.org/book/
+https://github.com/rust-lang/book/tree/master/src
+
+
+Менеджер пакетов - примеры работы
+https://rurust.github.io/cargo-docs-ru/
+
+ОС "Redox OS"
+https://www.redox-os.org/docs/
+https://github.com/redox-os/redox
+
+Браузер (ни хрена не работает)
+https://servo.org
+
+OS-dev репозиторий
+https://github.com/rust-osdev/uefi-rs
+
