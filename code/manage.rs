@@ -29,6 +29,23 @@ fn main()
 		Число 3
 	*/
 
+
+	let a = [1, 2, 3, 4, 5];
+
+	let mut index = 0;
+	let element5 = loop
+	{
+		if a[index] == 4
+		{
+			break (index, a[index]);
+		}
+
+		index += 1;
+	};
+
+	// a[3] == 4
+	println!("a[{}] == {}", element5.0, element5.1);
+
 // -------------------------------- match --------------------------------
 
 	let str1 = String::from("aaa");

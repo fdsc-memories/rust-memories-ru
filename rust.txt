@@ -17,7 +17,8 @@ E8uZGuKQGoXYBacNDu:link описание основных команд cargo
 
 \code\manage.rs - управляющие конструкции
 
-/code/varsanderrors/vars.rs - переменные, ссылки, кортежи, ошибки и т.п.
+/code/varsanderrors/vars.rs - переменные, арифметика, простые типы, кортежи, массивы и т.п.
+/code/fn/fn.rs - функции
 
 DoSIB5HLcFKAvqx5Kh:link
 	\code\enums\enums.rs - описание стандартных перечислений
