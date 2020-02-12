@@ -80,10 +80,29 @@ let _x =
 	}
 
 	// do .. while отсутствует
-	
+	// В for тоже можно делать break
 	for _e in a.iter()
 	{
+		println!("a.iter(): {}", _e);
 	}
+	
+	for (i, &e) in a.iter().enumerate()
+	{
+		println!("a.iter(): a[{}] == {}", i, e);
+	}
+
+/* Вывод двух предыдущих циклов
+a.iter(): 1
+a.iter(): 2
+a.iter(): 3
+a.iter(): 4
+a.iter(): 5
+a.iter(): a[0] == 1
+a.iter(): a[1] == 2
+a.iter(): a[2] == 3
+a.iter(): a[3] == 4
+a.iter(): a[4] == 5
+*/
 
 	for number in (1..4).rev()
 	{
