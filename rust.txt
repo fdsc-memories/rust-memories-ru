@@ -26,6 +26,11 @@ DoSIB5HLcFKAvqx5Kh:link
 	\code\enums\enums.rs - описание перечислений и конструкции match
 	\code\types\structs.rs - структуры и пример того, как можно декларировать состояния объектов, которые будут проверятся статически на основе заимствованных ссылок
 
+\code\types\collections	- стандартные коллекции
+	\vec.rs - тип Vec (расширяемый массив)
+
+\code\varsanderrors\warningofcompiler.txt - список некоторых предупреждений компилятора для отключения
+
 5BaC0do3JexEWC6jwB:link описание ввода-вывода на консоль. См. файлы
 	/code/io/console.rs
 
