@@ -20,3 +20,15 @@ https://servo.org
 OS-dev репозиторий
 https://github.com/rust-osdev/uefi-rs
 
+Ещё один сайт про ОС
+https://os.phil-opp.com
+
+Драйвера для Windows
+https://github.com/thejpster/pc-keyboard
+https://github.com/pravic/winapi-kmd-rs
+
+
+Аллокаторы
+https://doc.rust-lang.org/1.9.0/book/custom-allocators.html
+
+Что такое #[rustc_allocator]

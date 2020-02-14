@@ -1,8 +1,18 @@
 ﻿// 5BaC0do3JexEWC6jwB: decl
+#![allow(non_snake_case)]
 
 use std::io;
 
 // https://doc.rust-lang.org/std/prelude/index.html - список того, что уже подключено без use
+
+// Эту структуру мы будем выводить на экран с помощью println!("{:?}", s);
+// #[derive(Debug)] говорит компилятору вставить информацию для вызова типажа форматирования {:?}
+#[derive(Debug)]
+struct Struct
+{
+	firstField:  u64,
+	secondField: String
+}
 
 fn main()
 {
@@ -50,4 +60,22 @@ fn main()
 		println!("Вы ввели число {}", guess);
 		break;
 	}
+	
+	// Типаж форматирования Display - {}
+	// Типаж форматирования Debug - {:?}
+	let s = Struct
+	{
+		firstField:  1000,
+		secondField: String::from("01000")
+	};
+
+	println!("{:?}", s);
+	println!("{:#?}", s);
+	/* Вывод обоих команд:
+	Struct { firstField: 1000, secondField: "01000" }
+	Struct {
+		firstField: 1000,
+		secondField: "01000",
+	}
+*/
 }
