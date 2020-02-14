@@ -1,2 +1,2 @@
-# rust-memories
+# rust-memories-ru
 Памятка по языку rust
