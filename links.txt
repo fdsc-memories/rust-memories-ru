@@ -2,9 +2,16 @@
 https://doc.rust-lang.ru/book/ch00-00-introduction.html
 https://rustycrate.ru
 
+Каталог библиотек
+https://crates.io
+
+
 Документация на английском
 https://doc.rust-lang.org/book/
 https://github.com/rust-lang/book/tree/master/src
+
+Документаця по стандартным классам
+https://doc.rust-lang.org/std/
 
 
 Менеджер пакетов - примеры работы
@@ -30,5 +37,9 @@ https://github.com/pravic/winapi-kmd-rs
 
 Аллокаторы
 https://doc.rust-lang.org/1.9.0/book/custom-allocators.html
-
 Что такое #[rustc_allocator]
+
+https://github.com/rust-lang/rust-gha/
+src/libstd/sys/windows/os.rs
+
+

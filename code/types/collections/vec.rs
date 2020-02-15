@@ -12,6 +12,7 @@ fn main()
 {
 	// Реализация вектора обсуждается здесь
 	// https://doc.rust-lang.org/stable/nomicon/vec.html
+	// rust-lang/rust: /src/liballoc/vec.rs (https://github.com/rust-lang)
 
 	// Vec - это список элементов одного типа: по сути, это расширяемый массив
 	// https://doc.rust-lang.org/std/vec/struct.Vec.html
