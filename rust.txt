@@ -20,7 +20,7 @@ E8uZGuKQGoXYBacNDu:link описание основных команд cargo
 
 \code\manage.rs - управляющие конструкции
 
-/code/varsanderrors/vars.rs - переменные, арифметика, простые типы, кортежи, массивы и управление памятью (ссылки)
+/code/varsanderrors/vars.rs - переменные, арифметика, простые типы, кортежи и базовое управление памятью (ссылки)
 
 /code/fn/fn.rs - функции
 
@@ -31,6 +31,7 @@ DoSIB5HLcFKAvqx5Kh:link
 
 \code\types\collections	- стандартные коллекции
 	\vec.rs - тип Vec (расширяемый массив)
+	\array.rs - массивы
 
 \code\varsanderrors\errors.rs - ошибки компилятора
 \code\varsanderrors\warningofcompiler.txt - список некоторых предупреждений компилятора для отключения

@@ -39,6 +39,7 @@ https://github.com/pravic/winapi-kmd-rs
 https://doc.rust-lang.org/1.9.0/book/custom-allocators.html
 Что такое #[rustc_allocator]
 
+https://github.com/rust-lang/rust
 https://github.com/rust-lang/rust-gha/
 src/libstd/sys/windows/os.rs
 

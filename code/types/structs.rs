@@ -11,6 +11,19 @@ struct User
 // Кортежная структура
 struct Point(f32, f32);
 
+// В определении структур разрешаются шаблонные типы
+struct _WithTemplate<T, B>
+{
+	_a: T,
+	_b: B
+}
+impl<T, B> _WithTemplate<T, B>
+{
+	fn _x(_a: T, _b: B)
+	{
+	}
+}
+
 // Добавим в User метод
 // Блок имплементации
 impl User
